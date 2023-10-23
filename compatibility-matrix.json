@@ -1,0 +1,36 @@
+{
+  "evcharger": {
+    "sources": [
+      {
+        "name": "auth",
+        "type": "internal",
+        "url": "https://github.com/callstack/super-app-showcase"
+      }
+    ],
+    "versions": {
+      "0.0.1": {
+        "auth": "0.0.1"
+      }
+    }
+  },
+  "host": {
+    "sources": [
+      {
+        "name": "auth",
+        "type": "internal",
+        "url": "https://github.com/callstack/super-app-showcase"
+      },
+      {
+        "name": "evcharger",
+        "type": "internal",
+        "url": "https://github.com/callstack/super-app-showcase"
+      }
+    ],
+    "versions": {
+      "0.0.1": {
+        "auth": "0.0.1",
+        "evcharger": "0.0.1"
+      }
+    }
+  }
+}
